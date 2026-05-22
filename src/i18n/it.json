@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Dashboard",
+    "standings": "Classifica",
+    "calendar": "Calendario",
+    "headToHead": "Scontri Diretti",
+    "awards": "Premi",
+    "hallOfShame": "Hall of Shame",
+    "matchdayKings": "Re della Giornata",
+    "streaks": "Serie & Forma",
+    "whatIf": "What If",
+    "charts": "Grafici",
+    "memes": "Roast Zone"
+  },
+  "home": {
+    "title": "Via che la vaga dio canpionato",
+    "subtitle": "Stagione 2025/26 — Il recap definitivo",
+    "champion": "Campione",
+    "topScorer": "Miglior Punteggio",
+    "mostGoals": "Più Gol",
+    "matchdays": "Giornate",
+    "teams": "Squadre",
+    "totalGoals": "Gol Totali",
+    "seasonHighlights": "Highlights della Stagione"
+  },
+  "standings": {
+    "title": "Classifica",
+    "team": "Squadra",
+    "played": "G",
+    "won": "V",
+    "drawn": "P",
+    "lost": "S",
+    "goalsFor": "GF",
+    "goalsAgainst": "GS",
+    "goalDifference": "DR",
+    "points": "Punti",
+    "fantaPoints": "Fanta Pts"
+  },
+  "calendar": {
+    "title": "Calendario & Risultati",
+    "matchday": "Giornata",
+    "serieA": "Serie A",
+    "mvp": "MVP"
+  },
+  "h2h": {
+    "title": "Scontri Diretti",
+    "selectTeams": "Seleziona due squadre",
+    "wins": "Vittorie",
+    "draws": "Pareggi",
+    "goals": "Gol",
+    "allMatches": "Tutti gli Incontri",
+    "matrix": "Matrice Scontri"
+  },
+  "awards": {
+    "title": "Premi della Stagione",
+    "matchdayAwards": "Premi per Giornata",
+    "highestScore": "Miglior Punteggio",
+    "lowestScore": "Peggior Punteggio",
+    "biggestWin": "Vittoria Più Larga",
+    "closestMatch": "Partita Più Equilibrata"
+  },
+  "shame": {
+    "title": "Hall of Shame",
+    "subtitle": "Le peggiori performance della stagione... non c'è da ridere (o forse sì)",
+    "worstScores": "I Punteggi Più Bassi",
+    "mostLosses": "Record di Sconfitte",
+    "worstStreak": "Serie Negativa Più Lunga"
+  },
+  "kings": {
+    "title": "Re della Giornata",
+    "subtitle": "Chi ha fatto più punti ogni giornata",
+    "leaderboard": "Classifica Corone",
+    "crowns": "corone",
+    "matchdayRecap": "Recap per Giornata",
+    "king": "Re",
+    "score": "Punteggio"
+  },
+  "streaks": {
+    "title": "Serie & Forma",
+    "longestWin": "Serie Vincente Più Lunga",
+    "longestLoss": "Serie Perdente Più Lunga",
+    "longestUnbeaten": "Imbattibilità Più Lunga",
+    "currentForm": "Forma Attuale (ultime 5)",
+    "matches": "partite"
+  },
+  "whatIf": {
+    "title": "What If — Classifiche Alternative",
+    "eveVsEve": "Tutti vs Tutti",
+    "eveVsEveDesc": "E se ogni giornata tutti giocassero contro tutti?",
+    "homeOnly": "Solo Casa",
+    "awayOnly": "Solo Trasferta",
+    "luckIndex": "Indice di Fortuna",
+    "luckIndexDesc": "Punti reali vs punti meritati: chi è stato più fortunato?",
+    "lucky": "Fortunato",
+    "unlucky": "Sfortunato"
+  },
+  "charts": {
+    "title": "Grafici & Statistiche",
+    "pointsProgression": "Andamento Punti",
+    "goalsChart": "Gol Segnati vs Subiti",
+    "fantaPointsAvg": "Media Fanta Punti"
+  },
+  "memes": {
+    "title": "Roast Zone 🔥",
+    "subtitle": "Onesti, brutali e senza pietà",
+    "superlatives": "Superlativi della Stagione"
+  },
+  "common": {
+    "pts": "pts",
+    "vs": "vs",
+    "matchday": "Giornata"
+  }
+}

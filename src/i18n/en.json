@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "home": "Dashboard",
+    "standings": "Standings",
+    "calendar": "Calendar",
+    "headToHead": "Head to Head",
+    "awards": "Awards",
+    "hallOfShame": "Hall of Shame",
+    "matchdayKings": "Matchday Kings",
+    "streaks": "Streaks & Form",
+    "whatIf": "What If",
+    "charts": "Charts",
+    "memes": "Roast Zone"
+  },
+  "home": {
+    "title": "Via che la vaga dio canpionato",
+    "subtitle": "Season 2025/26 — The definitive recap",
+    "champion": "Champion",
+    "topScorer": "Top Score",
+    "mostGoals": "Most Goals",
+    "matchdays": "Matchdays",
+    "teams": "Teams",
+    "totalGoals": "Total Goals",
+    "seasonHighlights": "Season Highlights"
+  },
+  "standings": {
+    "title": "Standings",
+    "team": "Team",
+    "played": "P",
+    "won": "W",
+    "drawn": "D",
+    "lost": "L",
+    "goalsFor": "GF",
+    "goalsAgainst": "GA",
+    "goalDifference": "GD",
+    "points": "Points",
+    "fantaPoints": "Fanta Pts"
+  },
+  "calendar": {
+    "title": "Calendar & Results",
+    "matchday": "Matchday",
+    "serieA": "Serie A",
+    "mvp": "MVP"
+  },
+  "h2h": {
+    "title": "Head to Head",
+    "selectTeams": "Select two teams",
+    "wins": "Wins",
+    "draws": "Draws",
+    "goals": "Goals",
+    "allMatches": "All Matches",
+    "matrix": "H2H Matrix"
+  },
+  "awards": {
+    "title": "Season Awards",
+    "matchdayAwards": "Matchday Awards",
+    "highestScore": "Highest Score",
+    "lowestScore": "Lowest Score",
+    "biggestWin": "Biggest Win",
+    "closestMatch": "Closest Match"
+  },
+  "shame": {
+    "title": "Hall of Shame",
+    "subtitle": "The worst performances of the season... nothing to laugh about (or maybe yes)",
+    "worstScores": "Lowest Scores",
+    "mostLosses": "Most Losses",
+    "worstStreak": "Longest Losing Streak"
+  },
+  "kings": {
+    "title": "Matchday Kings",
+    "subtitle": "Who scored the most points each matchday",
+    "leaderboard": "Crown Leaderboard",
+    "crowns": "crowns",
+    "matchdayRecap": "Matchday Recap",
+    "king": "King",
+    "score": "Score"
+  },
+  "streaks": {
+    "title": "Streaks & Form",
+    "longestWin": "Longest Win Streak",
+    "longestLoss": "Longest Loss Streak",
+    "longestUnbeaten": "Longest Unbeaten",
+    "currentForm": "Current Form (last 5)",
+    "matches": "matches"
+  },
+  "whatIf": {
+    "title": "What If — Alternative Standings",
+    "eveVsEve": "Everyone vs Everyone",
+    "eveVsEveDesc": "What if everyone played against everyone each matchday?",
+    "homeOnly": "Home Only",
+    "awayOnly": "Away Only",
+    "luckIndex": "Luck Index",
+    "luckIndexDesc": "Actual points vs deserved points: who's been luckiest?",
+    "lucky": "Lucky",
+    "unlucky": "Unlucky"
+  },
+  "charts": {
+    "title": "Charts & Stats",
+    "pointsProgression": "Points Progression",
+    "goalsChart": "Goals Scored vs Conceded",
+    "fantaPointsAvg": "Avg Fanta Points"
+  },
+  "memes": {
+    "title": "Roast Zone 🔥",
+    "subtitle": "Honest, brutal, and merciless",
+    "superlatives": "Season Superlatives"
+  },
+  "common": {
+    "pts": "pts",
+    "vs": "vs",
+    "matchday": "Matchday"
+  }
+}

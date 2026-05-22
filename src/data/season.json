@@ -1,0 +1,2330 @@
+{
+  "leagueName": "Via che la vaga dio canpionato",
+  "leagueUrl": "https://leghe.fantacalcio.it/fanta-la-sete",
+  "teams": [
+    "AC SELVAGGIO LEORIN",
+    "FC BARCIOLONA",
+    "FC POGGITOMMI",
+    "Forette indipendente",
+    "Isolalta 1312",
+    "Mama che bela Troia",
+    "Niccardo Biglia Intimo",
+    "Notte prima degli Asllani",
+    "Salta che ti passa",
+    "Team NZ",
+    "Veltins Club",
+    "sca eagles"
+  ],
+  "matchdays": [
+    {
+      "number": 1,
+      "serieAMatchday": 3,
+      "matches": [
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 72,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 64.5,
+          "awayFantaPoints": 62,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 61.5,
+          "awayFantaPoints": 75.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 67.5,
+          "awayFantaPoints": 74,
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "result": "1-3",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 75,
+          "awayFantaPoints": 71,
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "result": "3-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 65.5,
+          "awayFantaPoints": 71.5,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "serieAMatchday": 5,
+      "matches": [
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 72,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 67.5,
+          "awayFantaPoints": 73.5,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 72.5,
+          "awayFantaPoints": 73,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 61.5,
+          "awayFantaPoints": 70.5,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 63,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 78,
+          "awayFantaPoints": 65,
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "result": "4-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "serieAMatchday": 7,
+      "matches": [
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 73,
+          "awayFantaPoints": 63,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 76,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 69.5,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 59,
+          "awayFantaPoints": 69,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 67,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 77.5,
+          "awayFantaPoints": 66,
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "result": "3-1",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "serieAMatchday": 9,
+      "matches": [
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 70,
+          "awayFantaPoints": 69,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 81,
+          "awayFantaPoints": 70,
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "result": "4-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 64.5,
+          "awayFantaPoints": 69,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 75,
+          "awayFantaPoints": 62,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 67,
+          "awayFantaPoints": 73.5,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 77.5,
+          "awayFantaPoints": 70.5,
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "result": "3-2",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "serieAMatchday": 11,
+      "matches": [
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 76.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 67,
+          "awayFantaPoints": 69.5,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 67.5,
+          "awayFantaPoints": 72.5,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 73.5,
+          "awayFantaPoints": 68,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 69.5,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 74,
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "result": "1-3",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "serieAMatchday": 13,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 67,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 87,
+          "awayFantaPoints": 66,
+          "homeGoals": 6,
+          "awayGoals": 1,
+          "result": "6-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 69,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 63,
+          "awayFantaPoints": 73,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 73.5,
+          "awayFantaPoints": 72.5,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 64,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "serieAMatchday": 15,
+      "matches": [
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 76,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 63,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 66,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 70,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 79,
+          "awayFantaPoints": 68,
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "result": "4-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 67,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "serieAMatchday": 17,
+      "matches": [
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 66.5,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 75.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 77.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 67,
+          "awayFantaPoints": 66,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 56.5,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "serieAMatchday": 19,
+      "matches": [
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 78.5,
+          "awayFantaPoints": 69.5,
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "result": "4-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 64.5,
+          "awayFantaPoints": 80.5,
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "result": "0-4",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 74.5,
+          "awayFantaPoints": 74.5,
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "result": "3-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 70,
+          "awayFantaPoints": 66,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 76,
+          "awayFantaPoints": 73.5,
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "result": "3-2",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "serieAMatchday": 21,
+      "matches": [
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 55,
+          "awayFantaPoints": 74.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 77.5,
+          "awayFantaPoints": 70.5,
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "result": "3-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 70,
+          "awayFantaPoints": 69,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 63,
+          "awayFantaPoints": 60,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 69,
+          "awayFantaPoints": 70,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 67.5,
+          "awayFantaPoints": 63,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "serieAMatchday": 23,
+      "matches": [
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 86.5,
+          "awayFantaPoints": 82,
+          "homeGoals": 6,
+          "awayGoals": 5,
+          "result": "6-5",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 65,
+          "awayFantaPoints": 67,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 67,
+          "awayFantaPoints": 78,
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "result": "1-4",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 76,
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "result": "2-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 69,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "serieAMatchday": 25,
+      "matches": [
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 63.5,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 63,
+          "awayFantaPoints": 75.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 79.5,
+          "awayFantaPoints": 67,
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "result": "4-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 58,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 73,
+          "awayFantaPoints": 76.5,
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "result": "2-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "serieAMatchday": 27,
+      "matches": [
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 73,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 77.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 72.5,
+          "awayFantaPoints": 70,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 62,
+          "awayFantaPoints": 72.5,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 74,
+          "awayFantaPoints": 71.5,
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "result": "3-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 74.5,
+          "awayFantaPoints": 60.5,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "serieAMatchday": 29,
+      "matches": [
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 70,
+          "awayFantaPoints": 68,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 75.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 88.5,
+          "awayFantaPoints": 67,
+          "homeGoals": 6,
+          "awayGoals": 1,
+          "result": "6-1",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 61.5,
+          "awayFantaPoints": 66,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 75.5,
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "result": "1-3",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "serieAMatchday": 31,
+      "matches": [
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 68,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 81.5,
+          "awayFantaPoints": 69,
+          "homeGoals": 4,
+          "awayGoals": 1,
+          "result": "4-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 67.5,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 78,
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "result": "1-4",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 81,
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "result": "0-4",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 77,
+          "awayFantaPoints": 64,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "serieAMatchday": 33,
+      "matches": [
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 75,
+          "awayFantaPoints": 67,
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "result": "3-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 64.5,
+          "awayFantaPoints": 69.5,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 65,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 60,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 66.5,
+          "awayFantaPoints": 60,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 81,
+          "awayFantaPoints": 60,
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "result": "4-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "serieAMatchday": 35,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 57,
+          "awayFantaPoints": 62.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 60,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 80.5,
+          "awayFantaPoints": 62.5,
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "result": "4-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 70,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 66.5,
+          "awayFantaPoints": 77.5,
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "result": "1-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 76.5,
+          "awayFantaPoints": 73,
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "result": "3-2",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "serieAMatchday": 37,
+      "matches": [
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 68,
+          "awayFantaPoints": 67,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 73.5,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 72,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 68,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Mama che bela Troia",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 66,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Niccardo Biglia Intimo",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 63.5,
+          "awayFantaPoints": 82,
+          "homeGoals": 0,
+          "awayGoals": 5,
+          "result": "0-5",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "serieAMatchday": 4,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 75.5,
+          "awayFantaPoints": 71,
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "result": "3-2",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 58.5,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 73.5,
+          "awayFantaPoints": 83,
+          "homeGoals": 2,
+          "awayGoals": 5,
+          "result": "2-5",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 63.5,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 62,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 73,
+          "awayFantaPoints": 70.5,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "serieAMatchday": 6,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 62.5,
+          "awayFantaPoints": 70,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 86.5,
+          "awayFantaPoints": 64,
+          "homeGoals": 6,
+          "awayGoals": 0,
+          "result": "6-0",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 65,
+          "awayFantaPoints": 75.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 72.5,
+          "awayFantaPoints": 72,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 77,
+          "awayFantaPoints": 63,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 65.5,
+          "awayFantaPoints": 68,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "serieAMatchday": 8,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 60,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 63.5,
+          "awayFantaPoints": 67.5,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 70,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 73,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 76.5,
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "result": "1-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 68,
+          "awayFantaPoints": 63,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "serieAMatchday": 10,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 67.5,
+          "awayFantaPoints": 68,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 65,
+          "awayFantaPoints": 65,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 77.5,
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "result": "2-3",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 63.5,
+          "awayFantaPoints": 73.5,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 75,
+          "awayFantaPoints": 77.5,
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "result": "3-3",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "serieAMatchday": 12,
+      "matches": [
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 81,
+          "awayFantaPoints": 74.5,
+          "homeGoals": 4,
+          "awayGoals": 3,
+          "result": "4-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 76.5,
+          "awayFantaPoints": 69,
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "result": "3-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 79.5,
+          "awayFantaPoints": 60,
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "result": "4-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 67,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 68,
+          "awayFantaPoints": 72.5,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 72,
+          "awayFantaPoints": 67.5,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "serieAMatchday": 14,
+      "matches": [
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 69.5,
+          "awayFantaPoints": 76,
+          "homeGoals": 1,
+          "awayGoals": 3,
+          "result": "1-3",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 66.5,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 75.5,
+          "awayFantaPoints": 72,
+          "homeGoals": 3,
+          "awayGoals": 2,
+          "result": "3-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 62,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 71,
+          "awayFantaPoints": 60,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 58.5,
+          "awayFantaPoints": 67.5,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "serieAMatchday": 16,
+      "matches": [
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 82.5,
+          "awayFantaPoints": 61,
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "result": "5-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 67,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 72.5,
+          "awayFantaPoints": 69,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 58,
+          "awayFantaPoints": 60,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 73.5,
+          "awayFantaPoints": 58,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 74.5,
+          "awayFantaPoints": 65,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "serieAMatchday": 18,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 72,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 56,
+          "awayFantaPoints": 70.5,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 58.5,
+          "awayFantaPoints": 69.5,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 63,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 84,
+          "awayFantaPoints": 63,
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "result": "5-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 75.5,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "serieAMatchday": 20,
+      "matches": [
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 72,
+          "awayFantaPoints": 69,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 78.5,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 4,
+          "awayGoals": 0,
+          "result": "4-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 69,
+          "awayFantaPoints": 82.5,
+          "homeGoals": 1,
+          "awayGoals": 5,
+          "result": "1-5",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 65.5,
+          "awayFantaPoints": 60,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 62,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 76,
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "result": "2-3",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "serieAMatchday": 22,
+      "matches": [
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 89,
+          "awayFantaPoints": 63,
+          "homeGoals": 6,
+          "awayGoals": 0,
+          "result": "6-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 61.5,
+          "awayFantaPoints": 68.5,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 74,
+          "awayFantaPoints": 68,
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "result": "3-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 69.5,
+          "awayFantaPoints": 70.5,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 74,
+          "awayFantaPoints": 85,
+          "homeGoals": 3,
+          "awayGoals": 5,
+          "result": "3-5",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 85.5,
+          "awayFantaPoints": 62,
+          "homeGoals": 5,
+          "awayGoals": 0,
+          "result": "5-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "serieAMatchday": 24,
+      "matches": [
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 62,
+          "awayFantaPoints": 69,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 78,
+          "awayFantaPoints": 72,
+          "homeGoals": 4,
+          "awayGoals": 2,
+          "result": "4-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 64,
+          "awayFantaPoints": 80.5,
+          "homeGoals": 0,
+          "awayGoals": 4,
+          "result": "0-4",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 87,
+          "awayFantaPoints": 80,
+          "homeGoals": 6,
+          "awayGoals": 4,
+          "result": "6-4",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 68,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 70.5,
+          "awayFantaPoints": 76.5,
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "result": "2-3",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "serieAMatchday": 26,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 70.5,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 64.5,
+          "awayFantaPoints": 67.5,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 69.5,
+          "awayFantaPoints": 70,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 75,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 73,
+          "homeGoals": 1,
+          "awayGoals": 2,
+          "result": "1-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 60,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "serieAMatchday": 28,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 74.5,
+          "awayFantaPoints": 75,
+          "homeGoals": 3,
+          "awayGoals": 3,
+          "result": "3-3",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 74,
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "result": "2-3",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 66,
+          "awayFantaPoints": 79,
+          "homeGoals": 1,
+          "awayGoals": 4,
+          "result": "1-4",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 64.5,
+          "awayFantaPoints": 74.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 77.5,
+          "awayFantaPoints": 61.5,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 65,
+          "awayFantaPoints": 67,
+          "homeGoals": 0,
+          "awayGoals": 1,
+          "result": "0-1",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "serieAMatchday": 30,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 60,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 72.5,
+          "awayFantaPoints": 73,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 71,
+          "awayFantaPoints": 60,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 71,
+          "awayFantaPoints": 69.5,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 70,
+          "awayFantaPoints": 75,
+          "homeGoals": 2,
+          "awayGoals": 3,
+          "result": "2-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 73,
+          "awayFantaPoints": 70,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "serieAMatchday": 32,
+      "matches": [
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 75,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        },
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 63,
+          "awayFantaPoints": 77.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 72,
+          "awayFantaPoints": 73,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 75.5,
+          "awayFantaPoints": 62.5,
+          "homeGoals": 3,
+          "awayGoals": 0,
+          "result": "3-0",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 71.5,
+          "awayFantaPoints": 73,
+          "homeGoals": 2,
+          "awayGoals": 2,
+          "result": "2-2",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 89,
+          "awayFantaPoints": 64,
+          "homeGoals": 6,
+          "awayGoals": 0,
+          "result": "6-0",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "serieAMatchday": 34,
+      "matches": [
+        {
+          "homeTeam": "sca eagles",
+          "awayTeam": "Team NZ",
+          "homeFantaPoints": 67.5,
+          "awayFantaPoints": 62.5,
+          "homeGoals": 1,
+          "awayGoals": 0,
+          "result": "1-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Veltins Club",
+          "awayTeam": "AC SELVAGGIO LEORIN",
+          "homeFantaPoints": 73,
+          "awayFantaPoints": 66.5,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Isolalta 1312",
+          "awayTeam": "Salta che ti passa",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 67.5,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "FC POGGITOMMI",
+          "awayTeam": "Forette indipendente",
+          "homeFantaPoints": 72.5,
+          "awayFantaPoints": 64.5,
+          "homeGoals": 2,
+          "awayGoals": 0,
+          "result": "2-0",
+          "played": true
+        },
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "FC BARCIOLONA",
+          "homeFantaPoints": 84.5,
+          "awayFantaPoints": 77,
+          "homeGoals": 5,
+          "awayGoals": 3,
+          "result": "5-3",
+          "played": true
+        },
+        {
+          "homeTeam": "Notte prima degli Asllani",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 65.5,
+          "awayFantaPoints": 73,
+          "homeGoals": 0,
+          "awayGoals": 2,
+          "result": "0-2",
+          "played": true
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "serieAMatchday": 36,
+      "matches": [
+        {
+          "homeTeam": "Mama che bela Troia",
+          "awayTeam": "sca eagles",
+          "homeFantaPoints": 65,
+          "awayFantaPoints": 75.5,
+          "homeGoals": 0,
+          "awayGoals": 3,
+          "result": "0-3",
+          "played": true
+        },
+        {
+          "homeTeam": "FC BARCIOLONA",
+          "awayTeam": "Veltins Club",
+          "homeFantaPoints": 81,
+          "awayFantaPoints": 78.5,
+          "homeGoals": 4,
+          "awayGoals": 4,
+          "result": "4-4",
+          "played": true
+        },
+        {
+          "homeTeam": "Forette indipendente",
+          "awayTeam": "Isolalta 1312",
+          "homeFantaPoints": 68.5,
+          "awayFantaPoints": 66,
+          "homeGoals": 1,
+          "awayGoals": 1,
+          "result": "1-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Salta che ti passa",
+          "awayTeam": "Niccardo Biglia Intimo",
+          "homeFantaPoints": 74,
+          "awayFantaPoints": 69.5,
+          "homeGoals": 3,
+          "awayGoals": 1,
+          "result": "3-1",
+          "played": true
+        },
+        {
+          "homeTeam": "Team NZ",
+          "awayTeam": "FC POGGITOMMI",
+          "homeFantaPoints": 72.5,
+          "awayFantaPoints": 69,
+          "homeGoals": 2,
+          "awayGoals": 1,
+          "result": "2-1",
+          "played": true
+        },
+        {
+          "homeTeam": "AC SELVAGGIO LEORIN",
+          "awayTeam": "Notte prima degli Asllani",
+          "homeFantaPoints": 64.5,
+          "awayFantaPoints": 65.5,
+          "homeGoals": 0,
+          "awayGoals": 0,
+          "result": "0-0",
+          "played": true
+        }
+      ]
+    }
+  ]
+}

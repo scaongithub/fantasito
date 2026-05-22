@@ -1,0 +1,63 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-pitch: #1b5e20;
+  --color-pitch-light: #2e7d32;
+  --color-pitch-dark: #0d3b0f;
+  --color-gold: #ffd700;
+  --color-gold-dark: #b8860b;
+  --color-shame-red: #dc2626;
+  --color-card-bg: #ffffff;
+  --color-bg: #f0f4f0;
+  --font-display: 'Fredoka', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-bg);
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #e8f5e9; }
+::-webkit-scrollbar-thumb { background: #66bb6a; border-radius: 4px; }
+
+.pitch-bg {
+  background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #1b5e20 100%);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.trophy-shimmer {
+  background: linear-gradient(90deg, #ffd700, #fff8dc, #ffd700);
+  background-size: 200% 100%;
+  animation: shimmer 3s ease-in-out infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.form-dot {
+  width: 28px; height: 28px; border-radius: 50%;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-weight: 700; font-size: 12px; color: white;
+}
