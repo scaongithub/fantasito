@@ -76,7 +76,24 @@ export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
     shameCount.set(a.lowestScore.team, (shameCount.get(a.lowestScore.team) || 0) + 1);
   }
 
-  const mvp = [...mvpCount.entries()].sort((a, b) => b[1] - a[1])[0];
+  // Calcola fanta punti totali per spareggio MVP
+  const totalFantaPoints = new Map<string, number>();
+  for (const team of data.teams) {
+    totalFantaPoints.set(team, 0);
+  }
+  for (const md of data.matchdays) {
+    for (const m of md.matches) {
+      if (!m.played) continue;
+      totalFantaPoints.set(m.homeTeam, (totalFantaPoints.get(m.homeTeam) || 0) + m.homeFantaPoints);
+      totalFantaPoints.set(m.awayTeam, (totalFantaPoints.get(m.awayTeam) || 0) + m.awayFantaPoints);
+    }
+  }
+
+  // Spareggio MVP: prima per giornate vinte, poi per fanta punti totali
+  const mvp = [...mvpCount.entries()].sort((a, b) => {
+    if (b[1] !== a[1]) return b[1] - a[1];
+    return (totalFantaPoints.get(b[0]) || 0) - (totalFantaPoints.get(a[0]) || 0);
+  })[0];
   awards.push({
     title: 'Season MVP',
     titleIt: 'MVP della Stagione',

@@ -66,20 +66,18 @@ for (let i = 3; i < rows.length; i++) {
 }
 if (currentMatchday) matchdays.push(currentMatchday);
 
-// Filter to only played matchdays
-const playedMatchdays = matchdays.filter(md => md.matches.some(m => m.played));
-
+// Includi tutte le giornate (giocate e non)
 const seasonData = {
   leagueName: "Via che la vaga dio canpionato",
   leagueUrl: "https://leghe.fantacalcio.it/fanta-la-sete",
   teams: [...teams].sort(),
-  matchdays: playedMatchdays
+  matchdays: matchdays
 };
 
 const outDir = join(__dirname, '..', 'src', 'data');
 mkdirSync(outDir, { recursive: true });
 writeFileSync(join(outDir, 'season.json'), JSON.stringify(seasonData, null, 2));
 
-console.log(`Parsed ${playedMatchdays.length} matchdays with ${teams.size} teams`);
+console.log(`Parsed ${matchdays.length} matchdays with ${teams.size} teams`);
 console.log('Teams:', [...teams].sort().join(', '));
 console.log(`Output: src/data/season.json`);
