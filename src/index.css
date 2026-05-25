@@ -1,45 +1,85 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @import "tailwindcss";
 
 @theme {
-  --color-pitch: #1b5e20;
-  --color-pitch-light: #2e7d32;
-  --color-pitch-dark: #0d3b0f;
-  --color-gold: #ffd700;
-  --color-gold-dark: #b8860b;
-  --color-shame-red: #dc2626;
-  --color-card-bg: #ffffff;
-  --color-bg: #f0f4f0;
+  /* Tech Dark Theme Palette */
+  --color-pitch: #10b981; /* Tech emerald green */
+  --color-pitch-light: #34d399;
+  --color-pitch-dark: #059669;
+  --color-gold: #fbbf24; /* Gold */
+  --color-gold-dark: #d97706;
+  --color-shame-red: #f87171; /* Red */
+  --color-card-bg: #1e293b; /* Card base */
+  --color-bg: #070a13; /* Page base */
+  
   --font-display: 'Fredoka', sans-serif;
   --font-body: 'Inter', sans-serif;
+
+  /* Gray palette overrides (reversed for Dark Mode) */
+  --color-gray-50: #0d1527;
+  --color-gray-100: #152035;
+  --color-gray-200: #22314d;
+  --color-gray-300: #334464;
+  --color-gray-400: #647b9b;
+  --color-gray-500: #94a9c9;
+  --color-gray-600: #cbdcf8;
+  --color-gray-700: #e2ecfd;
+  --color-gray-800: #f1f6fe;
+  --color-gray-900: #ffffff;
+
+  /* Blue overrides for dark theme cards */
+  --color-blue-50: #0f1c3f; /* dark blue bg */
+  --color-blue-300: #2563eb; /* blue border */
+  --color-blue-800: #60a5fa; /* light blue text */
+  --color-blue-900: #93c5fd; /* light blue text accent */
+
+  /* Amber overrides for matchday kings */
+  --color-amber-50: #2d1808; /* dark amber bg */
+  --color-amber-100: #fde68a;
+  --color-amber-600: #fbbf24;
 }
 
 body {
   font-family: var(--font-body);
-  background: var(--color-bg);
+  background: radial-gradient(circle at top, #111a2f 0%, #070a13 100%);
   min-height: 100vh;
   margin: 0;
+  color: #f1f5f9;
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
+  color: #ffffff;
+}
+
+::selection {
+  background: rgba(16, 185, 129, 0.3);
+  color: #ffffff;
 }
 
 ::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #e8f5e9; }
-::-webkit-scrollbar-thumb { background: #66bb6a; border-radius: 4px; }
+::-webkit-scrollbar-track { background: #070a13; }
+::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #334155; }
 
 .pitch-bg {
-  background: linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #1b5e20 100%);
+  background: linear-gradient(135deg, #090d16 0%, #15223c 100%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(21, 32, 53, 0.55);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.35);
 }
 
 @keyframes shimmer {

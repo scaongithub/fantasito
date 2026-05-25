@@ -33,7 +33,8 @@ export function computeKingLeaderboard(data: SeasonData): KingLeaderboard[] {
 
   for (const mk of kings) {
     for (const k of mk.kings) {
-      crowns.set(k.team, (crowns.get(k.team) || 0) + 1);
+      const points = 1 / mk.kings.length;
+      crowns.set(k.team, (crowns.get(k.team) || 0) + points);
     }
   }
 

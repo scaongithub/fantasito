@@ -71,7 +71,7 @@ const seasonData = {
   leagueName: "Via che la vaga dio canpionato",
   leagueUrl: "https://leghe.fantacalcio.it/fanta-la-sete",
   teams: [...teams].sort(),
-  matchdays: matchdays
+  matchdays: matchdays.sort((a, b) => a.number - b.number)
 };
 
 const outDir = join(__dirname, '..', 'src', 'data');

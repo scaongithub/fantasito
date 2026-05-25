@@ -33,7 +33,7 @@ export default function MatchdayKings() {
             <div className="flex-1">
               <p className="font-bold text-sm text-gray-800">{k.team}</p>
               <p className="text-amber-600 font-bold">
-                {'👑'.repeat(Math.min(k.crowns, 10))} ×{k.crowns}
+                {'👑'.repeat(Math.floor(Math.min(k.crowns, 10)))} ×{k.crowns % 1 === 0 ? k.crowns : k.crowns.toFixed(1)}
               </p>
             </div>
           </motion.div>

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -12,6 +13,7 @@ const data = seasonData as SeasonData;
 
 export default function Home() {
   const { t } = useTranslation();
+  const [ballHovered, setBallHovered] = useState(false);
   const standings = computeStandings(data);
   const champion = standings[0];
   const awards = computeSeasonAwards(data);
@@ -36,33 +38,51 @@ export default function Home() {
       {/* Sezione hero */}
       <div className="text-center mb-12">
         <motion.h1
-          className="text-4xl sm:text-6xl font-bold text-pitch-dark mb-2"
+          className="text-4xl sm:text-6xl font-bold mb-2 flex items-center justify-center gap-3"
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ type: 'spring', stiffness: 200 }}
         >
-          ⚽ {t('home.title')}
+          <motion.span
+            className="inline-block cursor-help select-none"
+            whileHover={{ rotate: 360, scale: 1.2 }}
+            transition={{ type: 'spring', stiffness: 150, damping: 10 }}
+            onMouseEnter={() => setBallHovered(true)}
+            onMouseLeave={() => setBallHovered(false)}
+          >
+            ⚽
+          </motion.span>
+          {ballHovered ? (
+            <span className="transition-all duration-500 bg-gradient-to-r from-black via-blue-600 to-black bg-clip-text text-transparent drop-shadow-md font-extrabold">
+              W INTER ⚫🔵
+            </span>
+          ) : (
+            <span className="transition-all duration-500 text-pitch-dark">
+              {t('home.title')}
+            </span>
+          )}
         </motion.h1>
         <p className="text-lg text-gray-600">{t('home.subtitle')}</p>
       </div>
 
       {/* Scheda campione */}
       <motion.div
-        className="glass-card p-8 mb-8 text-center"
+        className="glass-card p-8 mb-8 text-center pitch-bg text-white border-none shadow-lg relative overflow-hidden"
         initial={{ y: 40, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.2 }}
       >
-        <p className="text-sm uppercase tracking-widest text-gray-500 mb-2">
+        <div className="absolute -inset-10 bg-gradient-to-r from-yellow-400/10 to-transparent blur-3xl rounded-full pointer-events-none" />
+        <p className="text-xs uppercase tracking-widest text-emerald-200/80 font-bold mb-2 relative z-10">
           {t('home.champion')}
         </p>
-        <div className="flex items-center justify-center gap-4 mb-3">
+        <div className="flex items-center justify-center gap-4 mb-3 relative z-10">
           <TeamBadge team={champion.team} size="lg" />
           <div>
-            <h2 className="text-3xl font-bold text-pitch-dark trophy-shimmer">
+            <h2 className="text-3xl font-extrabold trophy-shimmer filter drop-shadow-sm">
               🏆 {champion.team}
             </h2>
-            <p className="text-gray-600">
+            <p className="text-emerald-100/90 font-medium">
               {champion.points} pts — {champion.won}W {champion.drawn}D {champion.lost}L
             </p>
           </div>
@@ -128,7 +148,9 @@ export default function Home() {
             <div key={k.team} className="flex items-center gap-2 bg-amber-50 rounded-full px-4 py-2">
               <TeamBadge team={k.team} size="sm" />
               <span className="font-medium text-sm">{k.team}</span>
-              <span className="text-amber-600 font-bold">👑 ×{k.crowns}</span>
+              <span className="text-amber-600 font-bold">
+                👑 ×{k.crowns % 1 === 0 ? k.crowns : k.crowns.toFixed(1)}
+              </span>
             </div>
           ))}
         </div>

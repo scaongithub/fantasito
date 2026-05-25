@@ -45,7 +45,7 @@ export default function Charts() {
 
   // Dati andamento punti
   const progressionData = sortedMd.map((md, i) => {
-    const point: Record<string, number | string> = { matchday: `MD ${md.number}` };
+    const point: Record<string, number | string> = { matchday: `G. ${md.number}` };
     for (const team of data.teams) {
       point[team] = progression.get(team)![i];
     }

@@ -1,4 +1,5 @@
 import type { SeasonData, MatchdayAward } from '../types';
+import { computeStandings } from './standings';
 
 export function computeAwards(data: SeasonData): MatchdayAward[] {
   return data.matchdays
@@ -66,14 +67,38 @@ export interface SeasonAward {
 
 export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
   const awards: SeasonAward[] = [];
-  const mdAwards = computeAwards(data);
 
-  // Conteggio MVP (più volte miglior punteggio della giornata)
   const mvpCount = new Map<string, number>();
   const shameCount = new Map<string, number>();
-  for (const a of mdAwards) {
-    mvpCount.set(a.highestScore.team, (mvpCount.get(a.highestScore.team) || 0) + 1);
-    shameCount.set(a.lowestScore.team, (shameCount.get(a.lowestScore.team) || 0) + 1);
+  for (const team of data.teams) {
+    mvpCount.set(team, 0);
+    shameCount.set(team, 0);
+  }
+
+  for (const md of data.matchdays) {
+    const playedMatches = md.matches.filter(m => m.played);
+    if (playedMatches.length === 0) continue;
+
+    const scores: { team: string; points: number }[] = [];
+    for (const m of playedMatches) {
+      scores.push({ team: m.homeTeam, points: m.homeFantaPoints });
+      scores.push({ team: m.awayTeam, points: m.awayFantaPoints });
+    }
+    scores.sort((a, b) => b.points - a.points);
+
+    // Highest score ties (split points equally among ties)
+    const maxPts = scores[0].points;
+    const kings = scores.filter(s => s.points === maxPts);
+    for (const k of kings) {
+      mvpCount.set(k.team, (mvpCount.get(k.team) || 0) + 1 / kings.length);
+    }
+
+    // Lowest score ties (split points equally among ties)
+    const minPts = scores[scores.length - 1].points;
+    const worsts = scores.filter(s => s.points === minPts);
+    for (const w of worsts) {
+      shameCount.set(w.team, (shameCount.get(w.team) || 0) + 1 / worsts.length);
+    }
   }
 
   // Calcola fanta punti totali per spareggio MVP
@@ -89,6 +114,8 @@ export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
     }
   }
 
+  const formatVal = (v: number) => (v % 1 === 0 ? String(v) : v.toFixed(1));
+
   // Spareggio MVP: prima per giornate vinte, poi per fanta punti totali
   const mvp = [...mvpCount.entries()].sort((a, b) => {
     if (b[1] !== a[1]) return b[1] - a[1];
@@ -98,7 +125,7 @@ export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
     title: 'Season MVP',
     titleIt: 'MVP della Stagione',
     team: mvp[0],
-    value: `${mvp[1]} matchday wins`,
+    value: `${formatVal(mvp[1])} matchday wins`,
     emoji: '🏆',
   });
 
@@ -107,7 +134,7 @@ export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
     title: "Bidone d'Oro",
     titleIt: "Bidone d'Oro",
     team: bidone[0],
-    value: `${bidone[1]} worst scores`,
+    value: `${formatVal(bidone[1])} worst scores`,
     emoji: '🗑️',
   });
 
@@ -136,7 +163,7 @@ export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
     title: 'Highest Score Ever',
     titleIt: 'Punteggio Record',
     team: maxScore.team,
-    value: `${maxScore.points} pts (MD ${maxScore.md})`,
+    value: `${maxScore.points} pts (G. ${maxScore.md})`,
     emoji: '🔥',
   });
 
@@ -144,7 +171,7 @@ export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
     title: 'Lowest Score Ever',
     titleIt: 'Punteggio Più Basso',
     team: minScore.team,
-    value: `${minScore.points} pts (MD ${minScore.md})`,
+    value: `${minScore.points} pts (G. ${minScore.md})`,
     emoji: '💀',
   });
 
@@ -164,7 +191,7 @@ export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
     title: 'Biggest Win',
     titleIt: 'Vittoria Più Larga',
     team: `${biggestWin.home} vs ${biggestWin.away}`,
-    value: `${biggestWin.result} (MD ${biggestWin.md})`,
+    value: `${biggestWin.result} (G. ${biggestWin.md})`,
     emoji: '💪',
   });
 
@@ -200,6 +227,19 @@ export function computeSeasonAwards(data: SeasonData): SeasonAward[] {
     value: `${mostEntertaining.avg.toFixed(1)} avg goals/match`,
     emoji: '🎭',
   });
+
+  // Find "Miglior Squadra 0 Tituli" (Best team with 0 titles)
+  const standings = computeStandings(data);
+  const bestZeroTitles = standings.find(s => s.team !== standings[0].team && s.team !== 'FC BARCIOLONA');
+  if (bestZeroTitles) {
+    awards.push({
+      title: 'Best Team with 0 Titles',
+      titleIt: 'Miglior Squadra 0 Tituli',
+      team: bestZeroTitles.team,
+      value: `${bestZeroTitles.points} pts — ${bestZeroTitles.goalsFor} GF, GD +${bestZeroTitles.goalDifference}`,
+      emoji: '🦅',
+    });
+  }
 
   return awards;
 }

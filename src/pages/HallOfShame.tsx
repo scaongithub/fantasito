@@ -92,7 +92,7 @@ export default function HallOfShame() {
               </div>
               <div className="text-right">
                 <span className="font-bold text-red-600 text-lg">{s.points}</span>
-                <span className="text-xs text-gray-400 ml-2">MD {s.md}</span>
+                <span className="text-xs text-gray-400 ml-2">G. {s.md}</span>
               </div>
             </motion.div>
           ))}
