@@ -69,6 +69,17 @@ export default function Home() {
         </div>
       </motion.div>
 
+      {/* Menzione Coppa e Battle Royale */}
+      <motion.div
+        className="glass-card p-6 mb-8 text-center bg-blue-50 border-blue-300 border"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.25 }}
+      >
+        <p className="text-lg font-bold text-blue-900 mb-1">🏆 FC BARCIOLONA</p>
+        <p className="text-blue-800">ha vinto sia la <b>Coppa 2025/2026</b> che la <b>Battle Royale</b>!</p>
+      </motion.div>
+
       {/* Schede statistiche */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
         {statCards.map((card, i) => (
