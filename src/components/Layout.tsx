@@ -21,6 +21,28 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   const { t, i18n } = useTranslation();
   const location = useLocation();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem('theme');
+    if (saved === 'light') {
+      document.documentElement.classList.add('light-theme');
+      return 'light';
+    } else {
+      document.documentElement.classList.remove('light-theme');
+      return 'dark';
+    }
+  });
+
+  const toggleTheme = () => {
+    if (theme === 'dark') {
+      document.documentElement.classList.add('light-theme');
+      localStorage.setItem('theme', 'light');
+      setTheme('light');
+    } else {
+      document.documentElement.classList.remove('light-theme');
+      localStorage.setItem('theme', 'dark');
+      setTheme('dark');
+    }
+  };
 
   const toggleLang = () => {
     i18n.changeLanguage(i18n.language === 'it' ? 'en' : 'it');
@@ -57,6 +79,14 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </nav>
 
           <div className="flex items-center gap-2">
+            <button
+              onClick={toggleTheme}
+              className="px-3 py-1.5 rounded-lg bg-white/20 text-white text-sm font-bold hover:bg-white/30 transition-all cursor-pointer border-none"
+              title={theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+            >
+              {theme === 'dark' ? '☀️' : '🌙'}
+            </button>
+
             <button
               onClick={toggleLang}
               className="px-3 py-1.5 rounded-lg bg-white/20 text-white text-sm font-bold hover:bg-white/30 transition-all cursor-pointer border-none"

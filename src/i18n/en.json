@@ -57,7 +57,17 @@
     "highestScore": "Highest Score",
     "lowestScore": "Lowest Score",
     "biggestWin": "Biggest Win",
-    "closestMatch": "Closest Match"
+    "closestMatch": "Closest Match",
+    "prizesTitle": "Prizes at Stake",
+    "earningsTitle": "Prizes Earned by Teams",
+    "totalEarned": "Total Earned",
+    "championship": "Championship",
+    "coppa": "Cup 2025/2026",
+    "battleRoyale": "Battle Royale",
+    "matchdayWinner": "Matchday Highest Score",
+    "firstPlace": "1st place",
+    "secondPlace": "2nd place",
+    "thirdPlace": "3rd place"
   },
   "shame": {
     "title": "Hall of Shame",

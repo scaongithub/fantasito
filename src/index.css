@@ -2,6 +2,82 @@
 
 @import "tailwindcss";
 
+:root {
+  /* Default is Dark Mode */
+  --bg-gradient: radial-gradient(circle at top, #111a2f 0%, #070a13 100%);
+  --card-bg: rgba(21, 32, 53, 0.55);
+  --text-color: #f1f5f9;
+  --heading-color: #ffffff;
+  --border-color: rgba(255, 255, 255, 0.06);
+  --pitch-bg-gradient: linear-gradient(135deg, #090d16 0%, #15223c 100%);
+  
+  /* Grays */
+  --gray-50: #0d1527;
+  --gray-100: #152035;
+  --gray-200: #22314d;
+  --gray-300: #334464;
+  --gray-400: #647b9b;
+  --gray-500: #94a9c9;
+  --gray-600: #cbdcf8;
+  --gray-700: #e2ecfd;
+  --gray-800: #f1f6fe;
+  --gray-900: #ffffff;
+
+  /* Blue */
+  --blue-50: #0f1c3f;
+  --blue-300: #2563eb;
+  --blue-800: #60a5fa;
+  --blue-900: #93c5fd;
+
+  /* Amber */
+  --amber-50: #2d1808;
+  --amber-100: #fde68a;
+  --amber-600: #fbbf24;
+
+  /* Scrollbar */
+  --sb-track: #070a13;
+  --sb-thumb: #1e293b;
+  --sb-thumb-hover: #334155;
+}
+
+:root.light-theme {
+  /* Light Theme Overrides */
+  --bg-gradient: radial-gradient(circle at top, #f8fafc 0%, #e2e8f0 100%);
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --text-color: #1e293b;
+  --heading-color: #0f172a;
+  --border-color: rgba(15, 23, 42, 0.08);
+  --pitch-bg-gradient: linear-gradient(135deg, #1b5e20 0%, #2e7d32 50%, #1b5e20 100%);
+  
+  /* Grays */
+  --gray-50: #f8fafc;
+  --gray-100: #f1f5f9;
+  --gray-200: #e2e8f0;
+  --gray-300: #cbd5e1;
+  --gray-400: #94a3b8;
+  --gray-500: #64748b;
+  --gray-600: #475569;
+  --gray-700: #334155;
+  --gray-800: #1e293b;
+  --gray-900: #0f172a;
+
+  /* Blue */
+  --blue-50: #eff6ff;
+  --blue-300: #93c5fd;
+  --blue-800: #1e40af;
+  --blue-900: #1e3a8a;
+
+  /* Amber */
+  --amber-50: #fffbeb;
+  --amber-100: #fde68a;
+  --amber-600: #d97706;
+
+  /* Scrollbar */
+  --sb-track: #e2e8f0;
+  --sb-thumb: #cbd5e1;
+  --sb-thumb-hover: #94a3b8;
+}
+
 @theme {
   /* Tech Dark Theme Palette */
   --color-pitch: #10b981; /* Tech emerald green */
@@ -10,47 +86,50 @@
   --color-gold: #fbbf24; /* Gold */
   --color-gold-dark: #d97706;
   --color-shame-red: #f87171; /* Red */
-  --color-card-bg: #1e293b; /* Card base */
-  --color-bg: #070a13; /* Page base */
+  
+  --color-card-bg: var(--card-bg);
+  --color-bg: var(--gray-50);
   
   --font-display: 'Fredoka', sans-serif;
   --font-body: 'Inter', sans-serif;
 
-  /* Gray palette overrides (reversed for Dark Mode) */
-  --color-gray-50: #0d1527;
-  --color-gray-100: #152035;
-  --color-gray-200: #22314d;
-  --color-gray-300: #334464;
-  --color-gray-400: #647b9b;
-  --color-gray-500: #94a9c9;
-  --color-gray-600: #cbdcf8;
-  --color-gray-700: #e2ecfd;
-  --color-gray-800: #f1f6fe;
-  --color-gray-900: #ffffff;
+  /* Gray palette overrides (reversed for Dark Mode, variables for dynamic toggle) */
+  --color-gray-50: var(--gray-50);
+  --color-gray-100: var(--gray-100);
+  --color-gray-200: var(--gray-200);
+  --color-gray-300: var(--gray-300);
+  --color-gray-400: var(--gray-400);
+  --color-gray-500: var(--gray-500);
+  --color-gray-600: var(--gray-600);
+  --color-gray-700: var(--gray-700);
+  --color-gray-800: var(--gray-800);
+  --color-gray-900: var(--gray-900);
 
   /* Blue overrides for dark theme cards */
-  --color-blue-50: #0f1c3f; /* dark blue bg */
-  --color-blue-300: #2563eb; /* blue border */
-  --color-blue-800: #60a5fa; /* light blue text */
-  --color-blue-900: #93c5fd; /* light blue text accent */
+  --color-blue-50: var(--blue-50); /* dark blue bg */
+  --color-blue-300: var(--blue-300); /* blue border */
+  --color-blue-800: var(--blue-800); /* light blue text */
+  --color-blue-900: var(--blue-900); /* light blue text accent */
 
   /* Amber overrides for matchday kings */
-  --color-amber-50: #2d1808; /* dark amber bg */
-  --color-amber-100: #fde68a;
-  --color-amber-600: #fbbf24;
+  --color-amber-50: var(--amber-50); /* dark amber bg */
+  --color-amber-100: var(--amber-100);
+  --color-amber-600: var(--amber-600);
 }
 
 body {
   font-family: var(--font-body);
-  background: radial-gradient(circle at top, #111a2f 0%, #070a13 100%);
+  background: var(--bg-gradient);
   min-height: 100vh;
   margin: 0;
-  color: #f1f5f9;
+  color: var(--text-color);
+  transition: background 0.3s ease, color 0.3s ease;
 }
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  color: #ffffff;
+  color: var(--heading-color);
+  transition: color 0.3s ease;
 }
 
 ::selection {
@@ -59,22 +138,23 @@ h1, h2, h3, h4 {
 }
 
 ::-webkit-scrollbar { width: 8px; }
-::-webkit-scrollbar-track { background: #070a13; }
-::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
-::-webkit-scrollbar-thumb:hover { background: #334155; }
+::-webkit-scrollbar-track { background: var(--sb-track); }
+::-webkit-scrollbar-thumb { background: var(--sb-thumb); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--sb-thumb-hover); }
 
 .pitch-bg {
-  background: linear-gradient(135deg, #090d16 0%, #15223c 100%);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background: var(--pitch-bg-gradient);
+  border-bottom: 1px solid var(--border-color);
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 .glass-card {
-  background: rgba(21, 32, 53, 0.55);
+  background: var(--card-bg);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border-color);
   border-radius: 16px;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease, border-color 0.3s ease;
 }
 
 .glass-card:hover {

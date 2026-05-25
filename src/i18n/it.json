@@ -57,7 +57,17 @@
     "highestScore": "Miglior Punteggio",
     "lowestScore": "Peggior Punteggio",
     "biggestWin": "Vittoria Più Larga",
-    "closestMatch": "Partita Più Equilibrata"
+    "closestMatch": "Partita Più Equilibrata",
+    "prizesTitle": "Premi in Palio (Montepremi)",
+    "earningsTitle": "Premi Guadagnati dalle Squadre",
+    "totalEarned": "Totale Vinto",
+    "championship": "Campionato",
+    "coppa": "Coppa 2025/2026",
+    "battleRoyale": "Battle Royale",
+    "matchdayWinner": "Miglior Punteggio di Giornata",
+    "firstPlace": "1° posto",
+    "secondPlace": "2° posto",
+    "thirdPlace": "3° posto"
   },
   "shame": {
     "title": "Hall of Shame",
