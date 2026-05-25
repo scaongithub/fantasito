@@ -67,8 +67,11 @@ export default function Awards() {
   }
 
   // 5. Totali
-  for (const [_, p] of teamPrizes.entries()) {
+  for (const [team, p] of teamPrizes.entries()) {
     p.total = p.campionato + p.coppa + p.battleRoyale + p.giornate;
+    if (team === 'Forette indipendente') {
+      p.total -= 70;
+    }
   }
 
   const sortedPrizes = [...teamPrizes.entries()]
